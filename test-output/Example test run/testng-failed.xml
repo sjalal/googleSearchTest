@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Example test run]">
+  <test name="Simple Test(failed)">
+    <classes>
+      <class name="com.pack.test.FlightFinderPageTest">
+        <methods>
+          <include name="verifyFlightType"/>
+          <include name="verifyPageTitle"/>
+          <include name="sampleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pack.test.FlightFinderPageTest -->
+      <class name="com.pack.test.SignInPageTest">
+        <methods>
+          <include name="PageTitle"/>
+          <include name="SignIn"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- com.pack.test.SignInPageTest -->
+    </classes>
+  </test> <!-- Simple Test(failed) -->
+</suite> <!-- Failed suite [Example test run] -->
